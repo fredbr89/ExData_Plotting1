@@ -9,7 +9,7 @@ data2$Voltage <- as.numeric(as.character(data2$Voltage))
 data2$Sub_metering_1 <- as.numeric(as.character(data2$Sub_metering_1))
 data2$Sub_metering_2 <- as.numeric(as.character(data2$Sub_metering_2))
 data2$Sub_metering_3 <- as.numeric(as.character(data2$Sub_metering_3))
-data2$Date_time <-paste(data2$Date, data2$Time)
+data2$Datetime <-paste(data2$Date, data2$Time)
 
 #Creating the .png file for plot1
 png('plot1.png', width=480, height=480)
